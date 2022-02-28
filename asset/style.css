@@ -2,4 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #F272A1;
+}
+#header{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.nav_header{
+    display: flex;
+}
+.logo_header img{
+    width: 50%;
+}
+.ul_header{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-family:'Bebas Neue', cursive ;
+
+}
+.ul_header li a:hover {
+    transition: 1.5s;
+    text-decoration: underline 1px solid black;
+    
+}
+.search{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #F288A4;
+    border: none;
 }
