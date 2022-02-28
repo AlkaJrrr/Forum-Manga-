@@ -44,3 +44,8 @@ jQuery(document).ready(function ($) {
       });
   
   });    
+
+  ScrollReveal().reveal('.radio_text',{
+      origin: 'top',
+      duration: 2000,
+  });

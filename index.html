@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https : //fonts.googleapis.com/css2 ?">
@@ -11,49 +13,66 @@
     <title>Manga Alka</title>
 </head>
 <body>
-    <header id="header">
-        <nav class="nav_header">
-            <div class="logo_header">
-                <img src="asset/img/mangAlka-removebg.png" alt="">
-            </div>
-            <ul class="ul_header">
-                <input type="search" placeholder="Entrez un mot-clef" name="the_search" class="search">
-                <li> <a href=""> Accueil</a></li>
-                <li> <a href="">Scans</a></li>
-                <li> <a href="">Films</a></li>
-                <li> <a href="">Episode</a></li>
-            </ul>
-        </nav>
-    </header>
+<header id="header">
+    <nav class="nav_header">
+        <div class="logo_header">
+            <img src="asset/img/mangAlka-removebg.png" alt="">
+        </div>
+        <ul class="ul_header">
+            <input type="search" placeholder="Entrez un mot-clef" name="the_search" class="search">
+            <li> <a href="index.html"> Accueil</a></li>
+            <li> <a href="scan.html">Scans</a></li>
+            <li> <a href="">Films</a></li>
+            <li> <a href="">Episode</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section class="slider_anime">
+<section class="slider_anime">
     <h1>Les animes du moment !</h1>
     <div id="slider">
-      <a href="#" class="control_next">Suivant</a>
-      <a href="#" class="control_prev">Précédent</a>
-      <ul class="slider_img">
-        <li><a href="https://onepiece-streaming.co/"><img src="https://th.bing.com/th/id/OIP.h3siujSbssQrEHh_vmNsUgHaFC?pid=ImgDet&rs=1" alt=""></a></li>
-        <li><a href=""><img src="https://news.otakukart.com/wp-content/uploads/2019/12/IMG_20191217_015014-1920x1459.jpg" alt=""></li>
-        <li><a href=""><img src="https://criticalhits.com.br/wp-content/uploads/2021/01/jujutsu-kaisen_2pes.jpg" alt=""></a></li>
-        <li><a href=""><img src="https://th.bing.com/th/id/R.c775db0bde0c365225bdf31be96bc2a4?rik=V9vlw73p5TdkvA&pid=ImgRaw&r=0" alt=""></a></li>
-      </ul>  
+        <a href="#" class="control_next">Suivant</a>
+        <a href="#" class="control_prev">Précédent</a>
+        <ul class="slider_img">
+            <li><a href="https://onepiece-streaming.co/"><img src="https://th.bing.com/th/id/OIP.h3siujSbssQrEHh_vmNsUgHaFC?pid=ImgDet&rs=1" alt=""></a></li>
+            <li><a href=""><img src="https://news.otakukart.com/wp-content/uploads/2019/12/IMG_20191217_015014-1920x1459.jpg" alt=""></li>
+            <li><a href=""><img src="https://criticalhits.com.br/wp-content/uploads/2021/01/jujutsu-kaisen_2pes.jpg" alt=""></a></li>
+            <li><a href=""><img src="https://th.bing.com/th/id/R.c775db0bde0c365225bdf31be96bc2a4?rik=V9vlw73p5TdkvA&pid=ImgRaw&r=0" alt=""></a></li>
+        </ul>
     </div>
-    
+
     <div class="slider_option">
-      <input type="checkbox" id="checkbox">
-      <label for="checkbox">Play</label>
-    </div> 
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Play</label>
+    </div>
 </section>
 
 <section id="radio">
     <div class="radio_div">
-<div class="video_radio">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="text_radio">
+            <h2>Retrouve ta radio Lofi  </h2> <i class="far fa-radio"></i>
+            <p>Lofi Girl une radio en direct live sur YouTube</p>
+            <br>
+            <p class="soiree">Idéal pour une soirée gaming ou révision</p>
+        </div>
+        <div class="video_radio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+<aside>
+<div id="scan">
+    <div class="scan_div">
+        <h2>Tu aimes lire ?</h2>
+        <br>
+        <p>Nous sommes en partenariat avec Scantrad ! profite de ton manga préféré</p>
+        <a href="https://scantrad.net/"><img src="https://scan-trad.fr/images/logon.png" alt=""></a>
+    </div>
+    
 </div>
-<div class="text_radio">
-    <p></p>
-</div>
-</div>
+<iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1QcsybeUidDJIrPQTHS6dD?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</aside>
+
 </section>
 
 
@@ -61,11 +80,13 @@
 
 
 
+<footer> 
+<div>caca</div>
+</footer>
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="asset/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="asset/js/main.js"></script>
 </body>
 </html>
