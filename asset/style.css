@@ -8,7 +8,8 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #F272A1;
+    background-image: url(https://wallpaperaccess.com/full/815769.jpg);
+    
 }
 #header{
     width: 100%;
@@ -20,7 +21,7 @@ body{
     display: flex;
 }
 .logo_header img{
-    width: 50%;
+    width: 60%;
 }
 .ul_header{
     display: flex;
@@ -28,16 +29,139 @@ body{
     list-style: none;
     align-items: center;
     font-family:'Bebas Neue', cursive ;
-
+   
+}
+.ul_header li a{
+    color: #5D59D9;
 }
 .ul_header li a:hover {
-    transition: 1.5s;
-    text-decoration: underline 1px solid black;
+    transition: 1s;
+    text-decoration: underline 5px solid #060E26;
+    
     
 }
 .search{
     padding: 0.5rem;
     border-radius: 10px;
-    background-color: #F288A4;
+    background-color: #9B7ED9;
     border: none;
+    font-family:'Bebas Neue', cursive ;
 }
+
+
+/* slider */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  #slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }
+  
+  a.control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+  
+  a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+  }
+  
+  .slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+  }
+  .slider_img li img{
+      width: 100%;
+      position: relative;
+  }
+  .titre_anime{
+    position: absolute;
+    top: 70%;
+    left: 34%;
+    z-index: 9999;
+    padding: 1rem;
+    
+}
+
+.titre_anime a{
+    color: white;
+    font-size: 2rem;
+    background-color: #060E26;
+    padding: 0.5rem;
+    
+}
+.titre_anime a:hover{
+    background-color: white;
+    color: black;
+}
+  .slider_anime{
+      background-color: #5D59D9;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      border-radius: 10px;
+  }
+  .slider_anime h1{
+    font-family:'Bebas Neue', cursive; 
+
+  }
+
+  /********************radio*******************/
+
+  #radio{
+      margin-top: 10rem;
+      background-color: red;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+  }
