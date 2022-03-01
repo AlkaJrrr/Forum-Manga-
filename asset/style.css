@@ -269,11 +269,88 @@ gap: 2rem;
 .scans_presentation p{
   text-align: center;
 }
+.scans_presentation img{
+  width: 300px;
+}
 .header_scan{
   text-align: center;
+  background-image: url(https://th.bing.com/th/id/R.bae6f0a76f24f93c9e98c22d227588e1?rik=LKhjA8sYL5cSeg&pid=ImgRaw&r=0);
 }
 .header_scan img{
   margin-top: 2rem;
   width: 40%;
+}
+.header_scan h2{
+  padding: 1rem;
+}
+.header_scan .scantrad_scan{
+  width: 50px;
+}
+.bloc_scan{
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  box-shadow: 1px 1px 47px 3px rgba(0,0,0,0.75);
+  padding: 1rem;
+  
 
+}
+.bloc_opm{
+  background-color: red;
+}
+.bloc_opm h2{
+  margin-bottom: 1rem;
+}
+.bloc_op{
+  background-color: palegreen;
+}
+.bloc_op h2{
+  margin-bottom: 1rem;
+}
+.bloc_kny{
+  background-color: violet;
+}
+.bloc_kny h2{
+margin-bottom: 1rem;
+}
+.bloc_snk{
+  background-color: yellow;
+}
+.bloc_snk h2{
+  margin-bottom: 1rem;
+}
+.bloc_bluelock{
+  background-color: lemonchiffon;
+}
+.bloc_bluelock h2{
+  margin-bottom: 1rem;
+}
+.bloc_stone{
+  background-color: tomato;
+}
+.bloc_stone{
+  margin-bottom: 1rem;
+}
+.bloc_stone h2{
+  margin-bottom: 1rem;
+}
+.bloc_bleach{
+  background-color: brown;
+}
+.bloc_bleach h2{
+  margin-bottom: 1rem;
+}
+.bloc_mha{
+  background-color: lightsalmon;
+}
+.bloc_mha h2{
+  margin-bottom: 2rem;
+}
+.bloc_jjk{
+  background-color: olivedrab;
+}
+.bloc_jjk h2{
+  margin-bottom: 1rem;
 }
