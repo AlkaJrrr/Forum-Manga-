@@ -68,6 +68,7 @@ h1 {
     overflow: hidden;
     margin: 20px auto 0 auto;
     border-radius: 4px;
+    width: 1400px;
   }
   
   #slider ul {
@@ -202,8 +203,54 @@ h1 {
 
 .scan_div{
     text-align: center;
+    padding: 0 2%;
 }
 .scan_div a img{
     margin-top: 5%;
     width: 10%;
+}
+
+/*****footer*******/
+#footer{
+background-color: #060E26;
+width: 100%;
+margin-top: 5%;
+}
+
+
+
+.footer_content{
+  color: #F2F0CE;
+  justify-content: center;
+  display: flex;
+  color: #F2F0CE;
+  display: flex;
+  gap: 10%;
+ 
+}
+.footer_content img{
+  width: 50%;
+}
+.footer_content a{
+  color: #F2F0CE;
+  display: flex;
+}
+.separator_footer{
+  width: 1px;
+  background-color: #9B7ED9;
+}
+.nav_footer a:hover{
+  border-bottom: #F2F0CE 1px solid;
+  transition: 1s;
+}
+.logo_footer{
+
+}
+.vlogo{
+display: flex;
+width: 300px;
+gap: 2rem;
+}
+.vlogo .scantrad_footer{
+  width: 90px;
 }
