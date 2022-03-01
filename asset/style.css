@@ -239,6 +239,9 @@ margin-top: 5%;
   width: 1px;
   background-color: #9B7ED9;
 }
+.nav_footer a{
+  line-height: 1.5rem;
+}
 .nav_footer a:hover{
   border-bottom: #F2F0CE 1px solid;
   transition: 1s;
@@ -253,4 +256,24 @@ gap: 2rem;
 }
 .vlogo .scantrad_footer{
   width: 90px;
+}
+
+/***********scans************/
+
+
+.scans_presentation{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.scans_presentation p{
+  text-align: center;
+}
+.header_scan{
+  text-align: center;
+}
+.header_scan img{
+  margin-top: 2rem;
+  width: 40%;
+
 }
