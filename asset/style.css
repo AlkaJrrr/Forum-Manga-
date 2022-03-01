@@ -297,60 +297,139 @@ gap: 2rem;
   
 
 }
+.separator_scan{
+  height: 2px;
+  width: 100%;
+  background-color: #060E26;
+}
+
 .bloc_opm{
-  background-color: red;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+}
+.bloc_opm:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_opm h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+text-align: center;
 }
 .bloc_op{
-  background-color: palegreen;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_op:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_op h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_kny{
-  background-color: violet;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_kny:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_kny h2{
 margin-bottom: 1rem;
+color: #F2F0CE;
+text-align: center;
 }
 .bloc_snk{
-  background-color: yellow;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_snk:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_snk h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_bluelock{
-  background-color: lemonchiffon;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_bluelock:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_bluelock h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_stone{
-  background-color: tomato;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_stone:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_stone{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_stone h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_bleach{
-  background-color: brown;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_bleach:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_bleach h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_mha{
-  background-color: lightsalmon;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_mha:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_mha h2{
   margin-bottom: 2rem;
+  color: #F2F0CE;
+  text-align: center;
 }
 .bloc_jjk{
-  background-color: olivedrab;
+  background-color:  #060E26;
+  filter: grayscale(80%);
+
+}
+.bloc_jjk:hover{
+  transition: 1.5s;
+  filter: grayscale(0%);
 }
 .bloc_jjk h2{
   margin-bottom: 1rem;
+  color: #F2F0CE;
+  text-align: center;
 }
