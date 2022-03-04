@@ -287,7 +287,7 @@ gap: 2rem;
   width: 50px;
 }
 .bloc_scan{
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   flex-flow: wrap;
   gap: 2rem;
@@ -296,6 +296,9 @@ gap: 2rem;
   padding: 1rem;
   
 
+}
+.bloc_scan p{
+  color: #F2F0CE;
 }
 .separator_scan{
   height: 2px;
@@ -316,6 +319,13 @@ gap: 2rem;
   color: #F2F0CE;
 text-align: center;
 }
+.status{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
 .bloc_op{
   background-color:  #060E26;
   filter: grayscale(80%);
@@ -432,4 +442,29 @@ text-align: center;
   margin-bottom: 1rem;
   color: #F2F0CE;
   text-align: center;
+}
+
+.orange{
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.vert{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+.rouge{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+.code_couleur{
+  display: flex;
+  gap: 2rem;
+  margin-top: 4%;
 }
