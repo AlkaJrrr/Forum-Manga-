@@ -517,15 +517,81 @@ text-align: center;
 }
 /**************film******************/
 #film{
-background-color: red;
+text-align: center;
 }
 .op_film_content{
-background-color: #9B7ED9;
-width: 50%;
+
 }
 .op_film_content h2{
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .op_film_content img{
   width: 30%;
 }
+
+  .bleach_film_content{
+  
+  }
+  .bleach_film_content h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .bleach_film_content img{
+    width: 30%;
+  }
+
+  .naruto_film_content{
+    
+    }
+    .naruto_film_content h2{
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .naruto_film_content img{
+      width: 30%;
+    }
+
+    .ghibli_film_content{
+      
+      }
+      .ghibli_film_content h2{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      .ghibli_film_content img{
+        width: 30%;
+      }
+
+      .yn_film_content{
+        
+        }
+        .yn_film_content h2{
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+        }
+        .yn_film_content img{
+          width: 30%;
+        }
+
+        .temps_film_content{
+          
+          }
+          .temps_film_content h2{
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+          }
+          .temps_film_content img{
+            width: 30%;
+          }
+          .en_cours{
+            display: none;
+          }
+          .en_cours p{
+            margin-top: 2rem;
+            text-align: center;
+          }
+          .en_cours img{
+            margin-top: 2rem;
+            width: 10%;
+          }

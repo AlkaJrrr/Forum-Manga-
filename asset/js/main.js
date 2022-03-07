@@ -49,3 +49,13 @@ jQuery(document).ready(function ($) {
       origin: 'top',
       duration: 2000,
   });
+
+
+  const voirPLus = document.querySelector('#voir_plus_film')
+  const enCours = document.querySelector('.en_cours')
+
+  voirPLus.addEventListener('click',function(e){
+        e.preventDefault
+      console.log('caca');
+    enCours.style.display = 'block'
+  })
