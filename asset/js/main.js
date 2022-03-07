@@ -61,4 +61,11 @@ jQuery(document).ready(function ($) {
     voirPLus.style.display = 'none'
   })
 
+  const voirMoins = document.querySelector('.moins')
+  
+  voirMoins.addEventListener('click',function(e){
+     enCours.style.display = 'none'
+     voirPLus.style.display = 'inline'
+  })
+
  

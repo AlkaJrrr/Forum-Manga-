@@ -596,6 +596,13 @@ text-align: center;
           #voir_plus_film:hover{
             opacity: 80%;
           }
+          .moins{
+            padding: 0.8rem;
+            border-radius: 50%;
+            margin-top: 2rem;
+            cursor: pointer;
+            background-color: #F2F0CE
+          }
           .reste_one{
             display: none;
           }
@@ -615,10 +622,12 @@ text-align: center;
 .op_v_film{
   display: flex;
   flex-flow: column;  
+  
 }
 .op_film_one{
   margin-top: 2rem;
   text-align: center;
+  
 }
 .op_film_one h2{
 
