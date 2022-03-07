@@ -595,3 +595,54 @@ text-align: center;
             margin-top: 2rem;
             width: 10%;
           }
+
+/*******film*******/
+.op_v_film{
+  display: flex;
+  flex-flow: column;  
+}
+.op_film_one{
+  margin-top: 2rem;
+  text-align: center;
+}
+.op_film_one h2{
+
+margin-bottom: 2rem;
+text-decoration: underline;
+}
+
+.op_film_two{
+  margin-top: 2rem;
+
+  width: 100%;
+  text-align: center;
+
+}
+.op_film_two h2{
+margin-bottom: 2rem;
+text-decoration: underline;
+}
+
+.op_film_three{
+  margin-top: 2rem;
+
+  width: 100%;
+  text-align: center;
+
+}
+.op_film_three h2{
+margin-bottom: 2rem;
+text-decoration: underline;
+}
+
+.op_film_two{
+  margin-top: 2rem;
+
+  width: 100%;
+  text-align: center;
+
+}
+.op_film_two h2{
+margin-bottom: 2rem;
+text-decoration: underline;
+}

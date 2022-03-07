@@ -55,7 +55,9 @@ jQuery(document).ready(function ($) {
   const enCours = document.querySelector('.en_cours')
 
   voirPLus.addEventListener('click',function(e){
-        e.preventDefault
+        e.preventDefault()
       console.log('caca');
     enCours.style.display = 'block'
   })
+
+ 
