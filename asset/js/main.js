@@ -52,12 +52,13 @@ jQuery(document).ready(function ($) {
 
 
   const voirPLus = document.querySelector('#voir_plus_film')
-  const enCours = document.querySelector('.en_cours')
+  const enCours = document.querySelector('.reste_one')
 
   voirPLus.addEventListener('click',function(e){
         e.preventDefault()
       console.log('caca');
     enCours.style.display = 'block'
+    voirPLus.style.display = 'none'
   })
 
  

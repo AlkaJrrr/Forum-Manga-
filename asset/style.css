@@ -192,6 +192,7 @@ h1 {
     margin-top: 2rem;
     font-size: 20px;
     line-height: 2rem;
+    color: white;
   }
   /********************radio*******************/
 
@@ -522,6 +523,7 @@ text-align: center;
 .op_film_content{
 
 }
+
 .op_film_content h2{
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -584,17 +586,30 @@ text-align: center;
           .temps_film_content img{
             width: 30%;
           }
-          .en_cours{
+          #voir_plus_film{
+            padding: 0.8rem;
+            border-radius: 50%;
+            margin-top: 2rem;
+            cursor: pointer;
+            background-color: #F2F0CE
+          }
+          #voir_plus_film:hover{
+            opacity: 80%;
+          }
+          .reste_one{
             display: none;
           }
-          .en_cours p{
-            margin-top: 2rem;
-            text-align: center;
+          .voice_film_content{
+        
           }
-          .en_cours img{
+          .voice_film_content h2{
+            margin-bottom: 2rem;
             margin-top: 2rem;
-            width: 10%;
           }
+          .voice_film_content img{
+            width: 30%;
+          }
+         
 
 /*******film*******/
 .op_v_film{
@@ -618,6 +633,7 @@ text-decoration: underline;
   text-align: center;
 
 }
+
 .op_film_two h2{
 margin-bottom: 2rem;
 text-decoration: underline;
@@ -646,3 +662,92 @@ text-decoration: underline;
 margin-bottom: 2rem;
 text-decoration: underline;
 }
+
+.bleach_v_film{
+  display: flex;
+  flex-flow: column;  
+}
+.bleach_film{
+  margin-top: 2rem;
+  text-align: center;
+}
+.naruto_v_film{
+  display: flex;
+  flex-flow: column;  
+}
+.naruto_film{
+  margin-top: 2rem;
+  text-align: center;
+}
+.naruto_film h2{
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  }
+
+  .ghibli_v_film{
+    display: flex;
+    flex-flow: column;  
+  }
+  .ghibli_film{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .ghibli_film h2{
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    }
+
+    .weathering_v_film{
+      display: flex;
+      flex-flow: column;  
+    }
+    .weathering_film{
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .weathering_film h2{
+      margin-bottom: 2rem;
+      text-decoration: underline;
+      }
+
+
+      .yn_v_film{
+        display: flex;
+        flex-flow: column;  
+      }
+      .yn_film{
+        margin-top: 2rem;
+        text-align: center;
+      }
+      .yn_film h2{
+        margin-bottom: 2rem;
+        text-decoration: underline;
+        }
+
+        .loup_v_film{
+          display: flex;
+          flex-flow: column;  
+        }
+        .loup_film{
+          margin-top: 2rem;
+          text-align: center;
+          margin: auto;
+        }
+        .loup_film h2{
+          margin-bottom: 2rem;
+          text-decoration: underline;
+          }
+
+          .voice_v_film{
+            display: flex;
+            flex-flow: column;  
+          }
+          .voice_film{
+            margin-top: 2rem;
+            text-align: center;
+            margin: auto;
+          }
+          .voice_film h2{
+            margin-bottom: 2rem;
+            text-decoration: underline;
+            }
